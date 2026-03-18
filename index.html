@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Guía completa para ver fútbol libre online gratis en 2026. LaLiga, Champions League, Premier League y más desde cualquier dispositivo sin pagar suscripciones.">
+<meta name="keywords" content="futbol libre, ver futbol gratis, futbol libre online, futbol en vivo gratis, como ver futbol gratis, laliga gratis, champions league gratis, futbol libre hd, futbol online 2026">
+<meta property="og:title" content="Cómo Ver Fútbol Libre Online Gratis 2026 — Guía Completa">
+<meta property="og:description" content="Guía paso a paso para ver fútbol libre online gratis desde cualquier dispositivo en 2026.">
+<meta property="og:type" content="article">
+<title>Cómo Ver Fútbol Libre Online Gratis 2026 — Guía Completa Paso a Paso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-dark: #0a2e14;
+    --green-mid: #145a2e;
+    --green-main: #1a7a3c;
+    --green-light: #22c55e;
+    --green-pale: #dcfce7;
+    --gold: #f5c518;
+    --gold-dark: #b8920f;
+    --white: #ffffff;
+    --off-white: #f8faf8;
+    --text-dark: #111a14;
+    --text-mid: #2d4a35;
+    --text-muted: #5a7a62;
+    --border: #c8e6d0;
+    --red-accent: #dc2626;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-dark);
+    background: var(--off-white);
+  }
+
+  /* TOP BAR */
+  .topbar {
+    background: var(--green-dark);
+    color: var(--green-light);
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .topbar a { color: var(--gold); text-decoration: none; font-weight: 600; }
+
+  /* HERO */
+  .hero {
+    background: var(--green-dark);
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(26,122,60,0.3) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 50%, rgba(26,122,60,0.2) 0%, transparent 60%);
+    padding: 70px 20px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green-light), var(--gold), var(--green-light));
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--green-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    padding: 6px 18px;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(36px, 6vw, 72px);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .hero h1 span { color: var(--green-light); }
+  .hero h1 em { color: var(--gold); font-style: normal; }
+  .hero-sub {
+    font-family: 'Source Serif 4', serif;
+    font-size: 19px;
+    color: rgba(255,255,255,0.7);
+    max-width: 580px;
+    margin: 18px auto 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 16px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    text-transform: uppercase;
+  }
+  .hero-cta:hover { background: var(--gold); transform: translateY(-2px); }
+  .hero-cta svg { width: 20px; height: 20px; }
+  .hero-meta {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .hero-meta span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .hero-meta span::before {
+    content: '✓';
+    color: var(--green-light);
+    font-size: 14px;
+  }
+
+  /* LAYOUT */
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .content { padding: 60px 0 80px; }
+
+  /* ARTICLE BODY */
+  .article-intro {
+    font-size: 20px;
+    color: var(--text-mid);
+    font-style: italic;
+    font-weight: 300;
+    border-left: 4px solid var(--green-light);
+    padding-left: 24px;
+    margin-bottom: 48px;
+    line-height: 1.7;
+  }
+
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--green-dark);
+    margin: 52px 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--green-pale);
+    letter-spacing: 0.01em;
+  }
+  h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--green-mid);
+    margin: 32px 0 14px;
+    letter-spacing: 0.02em;
+  }
+  p { margin-bottom: 20px; color: var(--text-dark); }
+
+  ul, ol { padding-left: 0; margin-bottom: 24px; list-style: none; }
+  ul li, ol li {
+    padding: 8px 0 8px 28px;
+    position: relative;
+    border-bottom: 1px solid var(--border);
+    font-size: 17px;
+  }
+  ul li:last-child, ol li:last-child { border-bottom: none; }
+  ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--green-light);
+    font-weight: 700;
+  }
+  ol { counter-reset: step; }
+  ol li { counter-increment: step; }
+  ol li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--green-main);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 12px;
+  }
+
+  /* HIGHLIGHT BOX */
+  .highlight-box {
+    background: var(--green-dark);
+    border-radius: 8px;
+    padding: 32px 36px;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .highlight-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green-light), var(--gold));
+  }
+  .highlight-box h3 {
+    color: var(--gold);
+    margin-top: 0;
+    font-size: 22px;
+  }
+  .highlight-box p { color: rgba(255,255,255,0.85); margin-bottom: 12px; }
+  .highlight-box ul li {
+    color: rgba(255,255,255,0.85);
+    border-bottom-color: rgba(255,255,255,0.1);
+    font-size: 16px;
+  }
+  .highlight-box ul li::before { color: var(--green-light); }
+  .highlight-box .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 14px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: background 0.2s;
+  }
+  .highlight-box .cta-btn:hover { background: var(--gold); }
+
+  /* INFO CARDS */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 28px 0;
+  }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px;
+    border-top: 3px solid var(--green-main);
+  }
+  .card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--green-dark);
+    margin-bottom: 8px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .card p { font-size: 15px; color: var(--text-muted); margin: 0; line-height: 1.6; }
+
+  /* STEP BOXES */
+  .steps { margin: 28px 0; }
+  .step {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: flex-start;
+  }
+  .step:last-child { border-bottom: none; }
+  .step-num {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--green-main);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step-body { flex: 1; }
+  .step-body strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--green-dark);
+    margin-bottom: 6px;
+    letter-spacing: 0.02em;
+  }
+  .step-body p { font-size: 16px; margin: 0; color: var(--text-mid); }
+
+  /* FAQ */
+  .faq { margin: 28px 0; }
+  .faq-item {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: var(--white);
+  }
+  .faq-q {
+    padding: 18px 22px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--green-dark);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 0.01em;
+    user-select: none;
+  }
+  .faq-q:hover { background: var(--green-pale); }
+  .faq-q .arrow {
+    color: var(--green-main);
+    font-size: 20px;
+    transition: transform 0.2s;
+    font-family: sans-serif;
+  }
+  .faq-a {
+    display: none;
+    padding: 0 22px 18px;
+    font-size: 16px;
+    color: var(--text-mid);
+    line-height: 1.7;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+  .faq-item.open .faq-a { display: block; }
+  .faq-item.open .arrow { transform: rotate(180deg); }
+
+  /* MID CTA BANNER */
+  .mid-cta {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+    border-radius: 8px;
+    padding: 36px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .mid-cta-text h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: var(--white);
+    margin: 0 0 6px;
+  }
+  .mid-cta-text p {
+    color: rgba(255,255,255,0.65);
+    font-size: 15px;
+    margin: 0;
+  }
+  .mid-cta-text p span { color: var(--green-light); font-weight: 600; }
+  .mid-cta a {
+    flex-shrink: 0;
+    background: var(--gold);
+    color: var(--green-dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 14px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+  .mid-cta a:hover { background: var(--white); }
+
+  /* TABLE */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    font-size: 15px;
+    background: var(--white);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  th {
+    background: var(--green-dark);
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding: 14px 16px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  td { padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--text-mid); }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--off-white); }
+  td:first-child { font-weight: 600; color: var(--green-dark); }
+
+  /* CONCLUSION */
+  .conclusion {
+    background: var(--green-pale);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 40px;
+    margin: 50px 0 0;
+    text-align: center;
+  }
+  .conclusion h2 {
+    border-bottom: none;
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .conclusion p { font-size: 17px; color: var(--text-mid); max-width: 560px; margin: 0 auto 20px; }
+  .conclusion a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--green-main);
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 16px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: background 0.2s;
+  }
+  .conclusion a:hover { background: var(--green-dark); }
+
+  /* FOOTER */
+  footer {
+    background: var(--green-dark);
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 30px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+  }
+  footer a { color: var(--green-light); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 38px; }
+    h2 { font-size: 24px; }
+    .highlight-box { padding: 24px 20px; }
+    .mid-cta { flex-direction: column; text-align: center; }
+    .conclusion { padding: 28px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  VER FÚTBOL EN DIRECTO GRATIS &nbsp;→&nbsp; <a href="https://hdfutbollibre.com" target="_blank">hdfutbollibre.com</a>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Guía Completa 2026</div>
+    <h1>Cómo Ver <span>Fútbol Libre</span><br>Online <em>Gratis</em></h1>
+    <p class="hero-sub">Todos los partidos. Sin suscripciones. Desde cualquier dispositivo. Te explicamos exactamente cómo hacerlo.</p>
+    <a href="https://hdfutbollibre.com" target="_blank" class="hero-cta">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      Ver Fútbol Libre Ahora
+    </a>
+    <div class="hero-meta">
+      <span>Sin registro</span>
+      <span>Streams en HD</span>
+      <span>LaLiga &amp; Champions</span>
+      <span>Móvil y PC</span>
+    </div>
+  </div>
+</header>
+
+<main class="content">
+  <div class="container">
+
+    <p class="article-intro">¿Cansado de pagar suscripciones para ver un partido? No estás solo. Millones de aficionados buscan cada semana cómo ver fútbol libre sin gastar un euro. En esta guía te explicamos exactamente cómo hacerlo — sin tecnicismos, sin rodeos, desde cualquier dispositivo.</p>
+
+    <h2>Por Qué Cada Vez Más Gente Busca Ver Fútbol Libre</h2>
+    <p>Hace diez años, el fútbol era accesible para todo el mundo. Hoy, para ver LaLiga completa, la Champions League, la Premier League y las selecciones nacionales, necesitas al menos tres o cuatro suscripciones distintas. DAZN, Movistar+, ESPN, Prime Video... la suma mensual fácilmente supera los 60 o 70 euros.</p>
+    <p>No es de extrañar que la búsqueda de "fútbol libre" haya explotado en los últimos años. La gente no quiere piratear nada — simplemente quiere ver fútbol sin arruinarse. Y hay formas completamente gratuitas y accesibles de hacerlo.</p>
+
+    <h2>Opción 1 — Canales y Plataformas Gratuitas Oficiales</h2>
+    <p>Antes de buscar alternativas, conviene saber qué fútbol puedes ver gratis de forma totalmente legal en 2026.</p>
+
+    <h3>Televisión en Abierto</h3>
+    <ul>
+      <li><strong>RTVE Play</strong> — La Selección Española, clasificación para Eurocopa y Mundial, amistosos internacionales. Gratuita, legal, con app para móvil y Smart TV.</li>
+      <li><strong>Teledeporte</strong> — Canal de TVE dedicado al deporte. Disponible en TDT y online gratis.</li>
+      <li><strong>Antena 3 / Atresplayer</strong> — Ocasionalmente retransmite partidos de selección o finales de Copa.</li>
+    </ul>
+
+    <h3>YouTube Oficial</h3>
+    <ul>
+      <li><strong>UEFA TV</strong> — Resúmenes completos de Champions, Europa League y Conference League</li>
+      <li><strong>LaLiga</strong> — Goles, resúmenes y contenido oficial</li>
+      <li><strong>RFEF</strong> — Algunos partidos de la Selección sub-21 y femenina en directo</li>
+      <li><strong>Copa del Rey</strong> — La RFEF emite partidos de rondas iniciales en YouTube</li>
+    </ul>
+
+    <h2>Opción 2 — Plataformas Gratuitas con Registro</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-title">Pluto TV</div>
+        <p>Servicio gratuito con publicidad. Contenido deportivo variado, perfectamente legal. Disponible en España para móvil, PC y Smart TV.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">DAZN Free</div>
+        <p>Capa gratuita en algunos mercados. Permite ver ciertos contenidos sin pagar. Revisa disponibilidad en tu país.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Peacock / Fubo</div>
+        <p>Para Premier League desde Latinoamérica. Períodos de prueba gratuitos de 7 a 30 días disponibles.</p>
+      </div>
+    </div>
+
+    <h2>Opción 3 — Ver Fútbol Libre en Sitios de Streaming Online</h2>
+    <p>Aquí es donde está la mayor parte del fútbol libre que busca la gente. Existen sitios web especializados en retransmitir partidos en directo de forma gratuita. No son plataformas oficiales, pero llevan años siendo el recurso más utilizado por millones de aficionados.</p>
+
+    <div class="highlight-box">
+      <h3>La Mejor Opción en 2026: hdfutbollibre.com</h3>
+      <p>La plataforma que reúne los mejores streams del día con emisiones en HD, interfaz limpia y actualización constante de enlaces.</p>
+      <ul>
+        <li>Streams organizados por competición y horario</li>
+        <li>Múltiples fuentes por partido — nunca te quedas sin ver</li>
+        <li>Compatible con móvil, tablet, PC y Smart TV</li>
+        <li>Sin registro obligatorio — entras y ves</li>
+        <li>Cubre LaLiga, Champions, Premier, Serie A, Copa del Rey, Selecciones y más</li>
+      </ul>
+      <a href="https://hdfutbollibre.com" target="_blank" class="cta-btn">
+        ▶ Entrar a hdfutbollibre.com
+      </a>
+    </div>
+
+    <h3>Cómo Usar Estos Sitios Correctamente</h3>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <strong>Ten siempre más de una opción guardada</strong>
+          <p>Estos sitios cambian de dominio con frecuencia. Guarda al menos dos o tres direcciones en favoritos. Si una no carga, la siguiente seguramente sí.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <strong>Usa un bloqueador de anuncios</strong>
+          <p>Instala uBlock Origin en tu navegador — gratuito, funciona en Chrome y Firefox. Elimina prácticamente todos los pop-ups molestos.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <strong>Los links se publican cerca del partido</strong>
+          <p>Generalmente aparecen entre 30 y 60 minutos antes del inicio. Para el Clásico o finales de Champions, pueden aparecer antes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <strong>Cambia de fuente si la imagen va mal</strong>
+          <p>La mayoría de partidos tienen entre 3 y 8 fuentes distintas. Si una va lenta o se corta, prueba la siguiente.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <strong>La calidad varía según el partido</strong>
+          <p>LaLiga y Champions suelen tener streams en HD. Partidos de segunda división o ligas menores pueden tener calidad más limitada.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Cómo Ver Fútbol Libre Desde Cada Dispositivo</h2>
+
+    <h3>Desde el Ordenador (PC o Mac)</h3>
+    <ol>
+      <li>Abre Chrome o Firefox</li>
+      <li>Instala la extensión uBlock Origin si aún no la tienes</li>
+      <li>Ve a <strong>hdfutbollibre.com</strong></li>
+      <li>Selecciona el partido del día</li>
+      <li>Elige una fuente y disfruta del partido en pantalla completa</li>
+    </ol>
+
+    <h3>Desde el Móvil (Android o iPhone)</h3>
+    <ol>
+      <li>Abre tu navegador — Chrome en Android, Safari en iPhone</li>
+      <li>Escribe <strong>hdfutbollibre.com</strong> en la barra de direcciones</li>
+      <li>El sitio está adaptado para móvil — no necesitas descargar nada</li>
+      <li>Conecta el móvil a WiFi para mejor experiencia</li>
+    </ol>
+
+    <h3>Desde Smart TV</h3>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-title">Navegador del TV</div>
+        <p>Samsung, LG, Sony tienen navegador incorporado. Ve directamente a hdfutbollibre.com.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Chromecast</div>
+        <p>Inicia el stream en móvil o tablet y usa Chromecast para enviarlo al televisor.</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Fire TV Stick</div>
+        <p>Descarga Firefox para Fire TV desde Amazon. Navega a hdfutbollibre.com directamente.</p>
+      </div>
+    </div>
+
+    <div class="mid-cta">
+      <div class="mid-cta-text">
+        <h3>¿Hay Partido Hoy?</h3>
+        <p>Entra ahora y ve la programación completa del día. <span>Streams en HD disponibles.</span></p>
+      </div>
+      <a href="https://hdfutbollibre.com" target="_blank">Ver Partidos de Hoy →</a>
+    </div>
+
+    <h2>Cómo Ver los Partidos Más Importantes Gratis</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Competición</th>
+          <th>Cobertura</th>
+          <th>Mejor Momento para Buscar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LaLiga</td>
+          <td>Excelente — 10+ fuentes en clásicos</td>
+          <td>30-60 min antes</td>
+        </tr>
+        <tr>
+          <td>Champions League</td>
+          <td>La mejor de todas las competiciones</td>
+          <td>60 min antes en fases finales</td>
+        </tr>
+        <tr>
+          <td>Premier League</td>
+          <td>Muy buena — narración en español</td>
+          <td>30-45 min antes</td>
+        </tr>
+        <tr>
+          <td>Copa del Rey</td>
+          <td>Buena desde cuartos de final</td>
+          <td>30 min antes</td>
+        </tr>
+        <tr>
+          <td>Selección Española</td>
+          <td>Amplia + opción oficial RTVE</td>
+          <td>1 hora antes</td>
+        </tr>
+        <tr>
+          <td>Copa Libertadores</td>
+          <td>Buena cobertura LATAM</td>
+          <td>30-60 min antes</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Solución a los Problemas Más Comunes</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num" style="background:#b45309;">!</div>
+        <div class="step-body">
+          <strong>El stream se congela o va a tirones</strong>
+          <p>Cambia a otra fuente disponible, baja la calidad del video, o conecta el dispositivo directamente al router por cable.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num" style="background:#b45309;">!</div>
+        <div class="step-body">
+          <strong>Sale pantalla negra al pulsar play</strong>
+          <p>Desactiva cualquier VPN activa, borra la caché del navegador e inténtalo de nuevo. Si persiste, prueba otro navegador.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num" style="background:#b45309;">!</div>
+        <div class="step-body">
+          <strong>El sitio no carga desde mi país</strong>
+          <p>Usa una VPN gratuita como ProtonVPN o Windscribe. Conecta a un servidor en España o México y accede sin problemas.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num" style="background:#b45309;">!</div>
+        <div class="step-body">
+          <strong>No encuentro el partido que busco</strong>
+          <p>Los links se publican entre 30 y 60 minutos antes del inicio. Si buscas demasiado pronto, vuelve más cerca de la hora.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Preguntas Frecuentes</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <div class="faq-q">¿Necesito registrarme para ver fútbol libre? <span class="arrow">▾</span></div>
+        <div class="faq-a">No. Los mejores sitios como hdfutbollibre.com no requieren ningún tipo de registro. Entras directamente y empiezas a ver.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Funciona en iPhone? <span class="arrow">▾</span></div>
+        <div class="faq-a">Sí, perfectamente desde Safari o Chrome. No necesitas ninguna app adicional.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo ver fútbol libre desde Argentina, México o Colombia? <span class="arrow">▾</span></div>
+        <div class="faq-a">Sí. Estos sitios funcionan en toda Latinoamérica. Si en tu país hay bloqueo de algún dominio específico, una VPN gratuita lo soluciona en segundos.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿A qué hora se publican los links de los partidos? <span class="arrow">▾</span></div>
+        <div class="faq-a">Generalmente entre 30 y 60 minutos antes del inicio. Para partidos de alta demanda como el Clásico o finales de Champions, suelen aparecer antes.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Qué calidad tienen los streams? <span class="arrow">▾</span></div>
+        <div class="faq-a">Varía según el partido y la fuente. Los partidos de LaLiga y Champions suelen tener fuentes en HD (720p o 1080p). Para partidos de menor demanda, la calidad puede ser menor.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Funciona en una Smart TV antigua? <span class="arrow">▾</span></div>
+        <div class="faq-a">Depende del modelo. Si tu televisor tiene navegador web incorporado, sí funcionará. Si no, la opción del Chromecast o el Fire TV Stick es tu mejor alternativa.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Hay app de fútbol libre para descargar? <span class="arrow">▾</span></div>
+        <div class="faq-a">Existen apps no oficiales, pero no las recomendamos. La forma más segura es acceder desde el navegador de tu dispositivo directamente al sitio web.</div>
+      </div>
+    </div>
+
+    <div class="conclusion">
+      <h2>¿Listo Para Ver el Próximo Partido?</h2>
+      <p>Ver fútbol libre en 2026 está al alcance de cualquiera. Guarda este enlace antes del próximo Clásico y nunca más te pierdas un partido por no tener suscripción.</p>
+      <a href="https://hdfutbollibre.com" target="_blank">▶ Ir a hdfutbollibre.com — Es Gratis</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>Actualizado 2026 &nbsp;|&nbsp; <a href="https://hdfutbollibre.com" target="_blank">hdfutbollibre.com</a> &nbsp;|&nbsp; Fútbol Libre Online Gratis</p>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(function(q) {
+  q.addEventListener('click', function() {
+    var item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+</script>
+
+</body>
+</html>
